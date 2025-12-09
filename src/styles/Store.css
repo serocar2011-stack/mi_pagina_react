@@ -73,16 +73,39 @@ button p{
   margin-bottom: 20px;
 }
 
+
 .new-product-wrapper{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  background-color:  rgba(10, 9, 9, 0.5);
+  border-radius: 15px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .button_product {
   margin: 20px;
-}
+  background-color: violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
 
+}
+ 
 
 /* responsive */
 
@@ -108,3 +131,9 @@ align-items: center;
 .card{
   width: 70vw;
   }}
+
+  @media(max-width: 700px){
+    .new-product-wrapper{
+      margin-left: 10vw;
+      margin-right: 10vw;
+}}

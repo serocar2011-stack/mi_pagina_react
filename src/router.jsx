@@ -5,7 +5,7 @@ import Imprimir from "./pages/Imprimir";
 import Libreria from "./pages/Libreria";
 import Galeria from "./pages/Galeria";
 import Contacto from "./pages/Contacto";
-import AddProductPage from "./components/AddProductPage";
+import AddProductPage from "./pages/AddProductPage";
 
 
 const router = createBrowserRouter([

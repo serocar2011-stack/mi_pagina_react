@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import "../styles/Store.css"
+
 
 function AddProductForm({ onAddProduct }) {
 
@@ -44,13 +46,13 @@ function AddProductForm({ onAddProduct }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="add-product-form">
+    <form onSubmit={handleSubmit} >
       <div className='new-product-wrapper'>
         
-        <label>
+        <label className='new-product-imput'>
           Título:
           <input
-            className='new-product'
+            
             type="text"
             name="title"
             value={newProduct.title}
