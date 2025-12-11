@@ -4,7 +4,6 @@ function useFileInputs() {
 
   const generateId = () => Date.now() + Math.random();
 
-  // ✔ Línea inicial creada correctamente (NO uses [1])
   const [fileInputs, setFileInputs] = useState([
     {
       id: generateId(),

@@ -28,7 +28,7 @@ function Imprimir() {
       return;
     }
 
-    /* Construimos el pedido completo */
+    /* pedido completo */
     const pedidoFinal = {
       ...pedido,
       archivos: fileInputs

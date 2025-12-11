@@ -3,13 +3,12 @@ import { useState, useEffect } from 'react';
 import { API_URL } from '../config';
 
 
-
-/* const API_URL = 'https://691e4379bb52a1db22bd6ee3.mockapi.io/api/products';
- */
 export function useProducts() {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+
+
 
   // GET Products
   useEffect(() => {
